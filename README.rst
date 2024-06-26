@@ -180,6 +180,11 @@ license.
 
 .. _guideline: CONTRIBUTING.rst
 
+My Changes
+==========
+
+I have changed in the Makefile which is the install PREFIX or the path to ~/.config/pipes. I also added a install.sh script for linux pc's which will automaticly install the script.
+
 
 Copyright
 =========
