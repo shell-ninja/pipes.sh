@@ -183,8 +183,10 @@ license.
 My Changes
 ==========
 
-I have changed in the Makefile which is the install PREFIX or the path to ~/.config/pipes. I also added a install.sh script for linux pc's which will automaticly install the script.
+I have added a install.sh script for linux pc's which will automaticly install the script. Just run this command.
 
+.. code:: sh
+  $ bash -c "$(wget -q  https://raw.githubusercontent.com/me-js-bro/pipes.sh/js-bro/install.sh -O -)"
 
 Copyright
 =========
