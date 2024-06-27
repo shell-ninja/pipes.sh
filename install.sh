@@ -10,7 +10,7 @@ clear
 printf "${action} - ${orange}Installing the pipes.sh. It may aks for your root password.${end}\n" && sleep 1
 
 # cloning the repo
-git clone --depth=1 https://github.com/me-js-bro/pipes.sh.git "$HOME/.pipes.sh"
+git clone --depth=1 -b js-bro https://github.com/me-js-bro/pipes.sh.git "$HOME/.pipes.sh"
 
 if [[ -d "$HOME/.pipes.sh" ]]; then
     cd "$HOME/.pipes.sh"
