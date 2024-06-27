@@ -67,6 +67,7 @@ My Changes ( Js Bro )
 I have added a install.sh script for linux pc's which will automaticly install the script. Just run this command. In will install the script in the `$HOME/.local directory`
 
 .. code:: sh
+
   $ bash -c "$(wget -q  https://raw.githubusercontent.com/me-js-bro/pipes.sh/master/install.sh -O -)"
 
 
