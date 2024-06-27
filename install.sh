@@ -7,7 +7,7 @@ action="[${green} ACTION ${end}]"
 
 clear
 
-printf "${action} - ${orange}Installing the pipes.sh. It may aks for your root password.${end}\n" && sleep 1
+printf "${action} - Installing the pipes.sh. It may aks for your root password.\n" && sleep 1
 
 # cloning the repo
 git clone --depth=1 -b js-bro https://github.com/me-js-bro/pipes.sh.git "$HOME/.pipes.sh"
@@ -17,7 +17,10 @@ if [[ -d "$HOME/.pipes.sh" ]]; then
     make install
 fi
 
+sleep 1
+
 if [[ -f "/usr/local/bin/pipes.sh" || -f "$HOME/.local/bin/pipes.sh" ]]; then
-    printf "Installed successfully. Now run pipes.sh in your terminal and you will get this...\n"
+    printf "${orange}Installed successfully. Now run pipes.sh in your terminal and you will get this${end}\n"
+    sleep 2
     pipes.sh
 fi

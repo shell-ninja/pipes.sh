@@ -61,6 +61,15 @@ If you are a `Homebrew <http://brew.sh>`_ user, you can install via:
     $ brew install pipes-sh
 
 
+My Changes ( Js Bro )
+=====================
+
+I have added a install.sh script for linux pc's which will automaticly install the script. Just run this command. In will install the script in the `$HOME/.local directory`
+
+.. code:: sh
+  $ bash -c "$(wget -q  https://raw.githubusercontent.com/me-js-bro/pipes.sh/js-bro/install.sh -O -)"
+
+
 Options
 =======
 
@@ -180,13 +189,6 @@ license.
 
 .. _guideline: CONTRIBUTING.rst
 
-My Changes
-==========
-
-I have added a install.sh script for linux pc's which will automaticly install the script. Just run this command.
-
-.. code:: sh
-  $ bash -c "$(wget -q  https://raw.githubusercontent.com/me-js-bro/pipes.sh/js-bro/install.sh -O -)"
 
 Copyright
 =========
