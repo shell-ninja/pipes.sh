@@ -14,7 +14,7 @@ git clone --depth=1 -b js-bro https://github.com/me-js-bro/pipes.sh.git "$HOME/.
 
 if [[ -d "$HOME/.pipes.sh" ]]; then
     cd "$HOME/.pipes.sh"
-    sudo make install
+    make install
 fi
 
 if [[ -f "/usr/local/bin/pipes.sh" || -f "$HOME/.local/bin/pipes.sh" ]]; then
