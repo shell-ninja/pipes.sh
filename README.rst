@@ -68,7 +68,7 @@ I have added a install.sh script for linux pc's which will automaticly install t
 
 .. code:: sh
 
-   bash -c "$(wget -q  https://raw.githubusercontent.com/me-js-bro/pipes.sh/master/install.sh -O -)"
+   bash -c "$(wget -q  https://raw.githubusercontent.com/shell-ninja/pipes.sh/master/install.sh -O -)"
 
 
 Options
