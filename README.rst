@@ -61,7 +61,7 @@ If you are a `Homebrew <http://brew.sh>`_ user, you can install via:
     $ brew install pipes-sh
 
 
-My Changes ( Js Bro )
+My Changes ( Shell Ninja )
 =====================
 
 I have added a install.sh script for linux pc's which will automaticly install the script. Just run this command. In will install the script in the `$HOME/.local directory`
